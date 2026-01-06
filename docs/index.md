@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# Welcome to OnlyDrops!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Exploring the Server!
 
-## Commands
+Carrying yourself around our server is a fairly straight forward process, all it requires is a little bit of that 'Dora - The Explorer' attitude. Now that you're in, we're hoping that you can see all the channels, i.e, the server should looks somewhat like this to you.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+![Screenshot 2022-04-30 at 10.58.05 PM.png](../assets/Screenshot 2022-04-30 at 10.58.05 PM.png)
 
-## Project layout
+!!! info
+    If you cannot see this channel, it might be that you do not have the correct role yet, to get assigned as a paid member, DM our Instagram \[[@onlydrops.in](https://www.instagram.com/onlydrops.in/)] or conctact either of @Aditya | OnlyDrops or @Aryaman | OnlyDrops.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Once you're in, its now explore time!
+
+**Our Social Handles:**
+
+* **Instagram** - [https://www.instagram.com/onlydrops.in/](https://www.instagram.com/onlydrops.in/)
