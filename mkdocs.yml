@@ -1,0 +1,44 @@
+site_name: OnlyDrops Guide
+
+site_url: https://guide.onlydrops.in
+
+repo_url: https://github.com/OnlyTools-Softwares/onlydrops-guide-docs
+repo_name: OnlyDrops Guide
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+
+extra:
+  assets:
+    exclude: |
+      *.zip
+      *.mov
