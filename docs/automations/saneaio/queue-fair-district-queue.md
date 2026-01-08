@@ -96,17 +96,16 @@ Once all of the above have been set and saved, head over back to the homepage me
 
 ![Screenshot 2025-04-04 at 3.35.35 PM.png](../../assets/Screenshot 2025-04-04 at 3.35.35 PM.png)
 
-### **ONLY USE CHROME BROWSER TO OPEN THE LINKS.**
-
-**NOTE:** The passed queue link in the webhook has an expiry of 10 minutes, and will only work on the Chrome Browser (and the same overall version, i.e, if you set 134.x.x.x, will work on any browser version that is of the same series) that you have set on the Chrome Version field.
+!!! info
+      ### **Notes:** Only use Chrome Browser to open the links.
+!!! warning
+      **NOTE:** The passed queue link in the webhook has an expiry of 10 minutes, and will only work on the Chrome Browser (and the same overall version, i.e, if you set 134.x.x.x, will work on any browser version that is of the same series) that you have set on the Chrome Version field.
 
 Use **Start All** to start all tasks, **Stop All** to stop all tasks, **Delete All** to Delete all tasks.
 
 To micromanage tasks, it has buttons by the side to manage it, and each should be simple to decipher by the icons.
 
-
-
-### COMMON FAQ/ERRORS
+## COMMON FAQ/ERRORS
 
 
 
