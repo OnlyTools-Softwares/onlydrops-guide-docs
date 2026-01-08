@@ -12,14 +12,11 @@ Once you've typed out or entered your ONLYACO KEY, press ENTER to continue.
 !!! warning
       If you're sure about the key's validity, and it is still remarking it as "Invalid", reset your key using the "**$onlyaco reset"** command.
 
-
-### NOTE: All features going ahead are common for both Windows and MacOS.
-
 !!! info
       For any queries, open a ticket on the OnlyDrops server.
 
 
-### SETTING PROXIES (Alternative IPs to avoid blocks - not necessary)
+## SETTING PROXIES
 
 From the previous page or any other page, clicking on the **WIFI ICON,** will take you to the proxy settings page.
 
