@@ -5,19 +5,18 @@ description: A GUI tool to help you cop limited items over certain websites.
 # Queue-Fair/District (Queue)
 
 
-
 ![Key Prompt](../../assets/Screenshot 2023-02-14 at 4.42.38 PM.png)
 
 Once you've typed out or entered your ONLYACO KEY, press ENTER to continue.
 
 !!! warning
-If you're sure about the key's validity, and it is still remarking it as "Invalid", reset your key using the "**$onlyaco reset"** command.
+      If you're sure about the key's validity, and it is still remarking it as "Invalid", reset your key using the "**$onlyaco reset"** command.
 
 
 ### NOTE: All features going ahead are common for both Windows and MacOS.
 
 !!! info
-For any queries, open a ticket on the OnlyDrops server.
+      For any queries, open a ticket on the OnlyDrops server.
 
 
 ### SETTING PROXIES (Alternative IPs to avoid blocks - not necessary)
@@ -34,7 +33,7 @@ From the previous page or any other page, clicking on the **WIFI ICON,** will ta
 * To **enter** **another proxy list**, use the drop down menu on the right of the name and switch it to **load list** and repeat the above process.
 * To **delete**, select the PROXY LIST from the drop down menu and press on delete.
 
-![The popup after you click on Save.](../../assets/Screenshot 2023-02-14 at 5.15.19 PM.png" alt=""><figcaption></figcaption></figure>
+![The popup after you click on Save.](../../assets/Screenshot 2023-02-14 at 5.15.19 PM.png)
 
 !!! warning
 **NOTE:** Please make sure you only use **STICKY** proxies and not **ROTATING** proxies as your cookies might get mixed up (usually should not but to be on the safer side).
@@ -42,79 +41,43 @@ From the previous page or any other page, clicking on the **WIFI ICON,** will ta
 
 
 
-### SETTINGS - Discord Webhook
+## **SETTINGS - Discord Webhook**
 
 Clicking on the **SLIDER ICON** should navigate you to the settings page of the automation.
 
-![12342424234234234.png" alt=""><figcaption></figcaption></figure>
+![12342424234234234.png](../../assets/12342424234234234.png)
 
 * Enter the webhook in the **"DISCORD WEBHOOK"** field. Once done, make sure you've checked the Order Placed checkmark for you to get the webhook. Should be checked by **default** as well.
 
-![safasdfsdafsadfa.png" alt=""><figcaption></figcaption></figure>
-
+![safasdfsdafsadfa.png](../../assets/safasdfsdafsadfa.png)
 * Remember to press **SAVE** to save the webhook in the automation. You can also **TEST WEBHOOK** to make sure you've set the right webhook.
 
-<div>![wq2131321321.png" alt=""><figcaption></figcaption></figure> ![safsdfadsfafa.png" alt=""><figcaption></figcaption></figure></div>
+![wq2131321321.png](../../assets/wq2131321321.png)
+![safsdfadsfafa.png](../../assets/safsdfadsfafa.png)
 
 * There is also an option to trigger the browser on a successful checkout, make sure that is **UNCHECKED** for this module to work correctly.
 
-### SETTINGS - Fetch Chrome Version
+## **SETTINGS - Fetch Chrome Version**
 
-![2312312312321312312.png" alt=""><figcaption></figcaption></figure>
-
-* If the Chrome Version field is empty, click on the blue **Fetch Version** button on the bottom left. It will f**etch the latest Chrome Version installed** on your desktop. You should see this popup.
-
-![2232123213213.png" alt=""><figcaption></figcaption></figure>
-
-* Click on **OK**.
-
-![12324235432423.png" alt=""><figcaption></figcaption></figure>
-
-* Click on the blue **Save** button on the bottom left to make sure you save the Settings to SaneAIO.
-
-
-
-![wq2131321321 (1).png)
-
-## TASK CREATION
-
-Once all of the above have been set and saved, head over back to the homepage menu from the **HOME/HOUSE** icon.
-
-![asfasdfsadfasfasfasf.png](../../assets/12342424234234234.png" alt=""><figcaption></figcaption></figure>
-
-* Enter the webhook in the **"DISCORD WEBHOOK"** field. Once done, make sure you've checked the Order Placed checkmark for you to get the webhook. Should be checked by **default** as well.
-
-![safasdfsdafsadfa.png" alt=""><figcaption></figcaption></figure>
-
-* Remember to press **SAVE** to save the webhook in the automation. You can also **TEST WEBHOOK** to make sure you've set the right webhook.
-
-<div>![wq2131321321.png" alt=""><figcaption></figcaption></figure> ![safsdfadsfafa.png" alt=""><figcaption></figcaption></figure></div>
-
-* There is also an option to trigger the browser on a successful checkout, make sure that is **UNCHECKED** for this module to work correctly.
-
-### SETTINGS - Fetch Chrome Version
-
-![2312312312321312312.png" alt=""><figcaption></figcaption></figure>
+![2312312312321312312.png](../../assets/2312312312321312312.png)
 
 * If the Chrome Version field is empty, click on the blue **Fetch Version** button on the bottom left. It will f**etch the latest Chrome Version installed** on your desktop. You should see this popup.
 
-![2232123213213.png" alt=""><figcaption></figcaption></figure>
+![2232123213213.png](../../assets/2232123213213.png)
 
 * Click on **OK**.
 
-![12324235432423.png" alt=""><figcaption></figcaption></figure>
+![12324235432423.png](../../assets/12324235432423.png)
 
 * Click on the blue **Save** button on the bottom left to make sure you save the Settings to SaneAIO.
 
+![wq2131321321 (1).png](../../assets/wq2131321321 (1).png)
 
-
-![wq2131321321 (1).png)
-
-## TASK CREATION
+## **TASK CREATION** 
 
 Once all of the above have been set and saved, head over back to the homepage menu from the **HOME/HOUSE** icon.
 
-![asfasdfsadfasfasfasf.png)
+![asfasdfsadfasfasfasf.png](../../assets/asfasdfsadfasfasfasf.png)
 
 1. Choose site/module, **Queue-Fair or District (Queue)** in this case.
 2. There is only 1 way to set/monitor a queue link:
@@ -126,23 +89,15 @@ Once all of the above have been set and saved, head over back to the homepage me
 
 ### **SAMPLE CHECKOUT LOGS FLOW:**
 
-![nnsnnfjnasjfnsadfa.png" alt=""><figcaption></figcaption></figure>
+![nnsnnfjnasjfnsadfa.png](../../assets/nnsnnfjnasjfnsadfa.png)
 
 1. The tool will check if the queue is live, and if it is, it will enter the queue.
 2. The tool will keep Polling and checking your live time queue status, and provide you an update of the same in the Logs window.
 3. Once passed, it will send you the passed queue link in a Discord Webhoo&#x6B;**.**
 
-**SAMPLE WEBHOOK:**
+### **SAMPLE WEBHOOK:**
 
-![Screenshot 2025-04-04 at 3.35.35 PM.png](../../assets/nnsnnfjnasjfnsadfa.png" alt=""><figcaption></figcaption></figure>
-
-1. The tool will check if the queue is live, and if it is, it will enter the queue.
-2. The tool will keep Polling and checking your live time queue status, and provide you an update of the same in the Logs window.
-3. Once passed, it will send you the passed queue link in a Discord Webhoo&#x6B;**.**
-
-**SAMPLE WEBHOOK:**
-
-![Screenshot 2025-04-04 at 3.35.35 PM.png)
+![Screenshot 2025-04-04 at 3.35.35 PM.png](../../assets/Screenshot 2025-04-04 at 3.35.35 PM.png)
 
 ### **ONLY USE CHROME BROWSER TO OPEN THE LINKS.**
 
