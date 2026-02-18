@@ -1,22 +1,28 @@
 ---
-description: A GUI tool to help you cop limited items over certain websites.
+title: Queue-Fair
+summary: A GUI tool to help you cop limited items
+description: SaneAIO is a GUI automation tool for purchasing limited items from supported websites
+keywords: saneaio,automation,gui,cop,bot
+author: OnlyDrops
+order: 7
+sidebar_title: Queue-Fair
 ---
 
-# Queue-Fair/District (Queue)
+# Queue-Fair
 
 
 ![Key Prompt](../../assets/Screenshot 2023-02-14 at 4.42.38 PM.png)
 
 Once you've typed out or entered your ONLYACO KEY, press ENTER to continue.
 
-!!! warning
+!!! warning "Note:"
       If you're sure about the key's validity, and it is still remarking it as "Invalid", reset your key using the "**$onlyaco reset"** command.
 
-!!! info
+!!! info "Information:"
       For any queries, open a ticket on the OnlyDrops server.
 
 
-## SETTING PROXIES
+## **SET PROXIES**
 
 From the previous page or any other page, clicking on the **WIFI ICON,** will take you to the proxy settings page.
 
@@ -32,13 +38,13 @@ From the previous page or any other page, clicking on the **WIFI ICON,** will ta
 
 ![The popup after you click on Save.](../../assets/Screenshot 2023-02-14 at 5.15.19 PM.png)
 
-!!! warning
-**NOTE:** Please make sure you only use **STICKY** proxies and not **ROTATING** proxies as your cookies might get mixed up (usually should not but to be on the safer side).
+!!! warning "Note:"
+      Please make sure you only use **STICKY** proxies and not **ROTATING** proxies as your cookies might get mixed up (usually should not but to be on the safer side).
 
 
 
 
-## **SETTINGS - Discord Webhook**
+## **SET WEBHOOK**
 
 Clicking on the **SLIDER ICON** should navigate you to the settings page of the automation.
 
@@ -47,14 +53,14 @@ Clicking on the **SLIDER ICON** should navigate you to the settings page of the 
 * Enter the webhook in the **"DISCORD WEBHOOK"** field. Once done, make sure you've checked the Order Placed checkmark for you to get the webhook. Should be checked by **default** as well.
 
 ![safasdfsdafsadfa.png](../../assets/safasdfsdafsadfa.png)
+
 * Remember to press **SAVE** to save the webhook in the automation. You can also **TEST WEBHOOK** to make sure you've set the right webhook.
 
-![wq2131321321.png](../../assets/wq2131321321.png)
 ![safsdfadsfafa.png](../../assets/safsdfadsfafa.png)
 
 * There is also an option to trigger the browser on a successful checkout, make sure that is **UNCHECKED** for this module to work correctly.
 
-## **SETTINGS - Fetch Chrome Version**
+## **SET CHROME VERSION**
 
 ![2312312312321312312.png](../../assets/2312312312321312312.png)
 
@@ -67,8 +73,6 @@ Clicking on the **SLIDER ICON** should navigate you to the settings page of the 
 ![12324235432423.png](../../assets/12324235432423.png)
 
 * Click on the blue **Save** button on the bottom left to make sure you save the Settings to SaneAIO.
-
-![wq2131321321 (1).png](../../assets/wq2131321321 (1).png)
 
 ## **TASK CREATION** 
 

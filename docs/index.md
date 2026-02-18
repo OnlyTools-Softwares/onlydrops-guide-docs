@@ -1,3 +1,12 @@
+---
+title: Welcome to OnlyDrops
+summary: Your guide to OnlyDrops tools and automations
+description: Complete guide to OnlyDrops tools, automations, and features
+keywords: onlydrops,guide,automations,tools
+author: OnlyDrops
+order: 0
+---
+
 # Welcome to OnlyDrops!
 
 ## Exploring the Server!

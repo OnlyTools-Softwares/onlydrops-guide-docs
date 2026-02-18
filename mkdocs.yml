@@ -6,39 +6,22 @@ repo_url: https://github.com/OnlyTools-Softwares/onlydrops-guide-docs
 repo_name: OnlyDrops Guide
 
 theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - toc.integrate
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+  name: shadcn
 
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
+  - codehilite
   - admonition
-  - pymdownx.details
   - attr_list
   - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.blocks.details
+
 
 extra:
   assets:
     exclude: |
       *.zip
       *.mov
+
+extra_css:
+  - stylesheets/extra.css

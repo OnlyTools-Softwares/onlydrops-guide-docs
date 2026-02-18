@@ -1,5 +1,11 @@
 ---
-description: A GUI tool to help you cop limited items over certain websites.
+title: Myntra
+summary: A GUI tool to help you cop limited items
+description: SaneAIO is a GUI automation tool for purchasing limited items from supported websites
+keywords: saneaio,automation,gui,cop,bot
+author: OnlyDrops
+order: 8
+sidebar_title: Myntra
 ---
 
 # Myntra
@@ -13,20 +19,15 @@ Once you've typed out or entered your ONLYACO KEY, press ENTER to continue.
 !!! warning
 If you're sure about the key's validity, and it is still remarking it as "Invalid", reset your key using the "**$onlyaco reset"** command.
 
-
-### NOTE: All features going ahead are common for both Windows and MacOS.
-
-
-
 ### PROFILE CREATION
 
 Once started up, the first thing you'd see is the homescreen of the automation.
 
-![Profile Set Page](../../assets/Screenshot 2023-02-14 at 4.52.27 PM.png" alt=""><figcaption></figcaption></figure>
+![Profile Set Page](../../assets/Screenshot 2023-02-14 at 4.52.27 PM.png)
 
 Navigate to the **WALLET ICON** to set your profiles.
 
-![Screenshot 2023-02-14 at 4.52.41 PM.png)
+![Screenshot 2023-02-14 at 4.52.41 PM.png](../../assets/Screenshot 2023-02-14 at 4.52.41 PM.png)
 
 * Fill out all relevant details, in the password field enter the complete cookie value.
 * For Myntra, the address field does not matter as it chooses your default address saved/selected on Myntra.
@@ -35,11 +36,8 @@ Navigate to the **WALLET ICON** to set your profiles.
 * To clear filled data, click on delete when the drop down menu has Load Profile selected.
 * To delete or edit a profile, navigate to the **Profile** from the drop down menu, make the relevant changes and then press the **SAVE/DELETE** button accordingly.
 
-!!! info
-For any other queries, open a ticket on the OnlyDrops server.
-
-
-
+!!! info "Information:"
+    For any other queries, open a ticket on the OnlyDrops server.
 
 ### GET COOKIE VALUE
 
@@ -57,7 +55,7 @@ For any other queries, open a ticket on the OnlyDrops server.
 
 Incase of issues, open a support ticket or ask in support channels for help.
 
-### SETTING PROXIES (Alternative IPs to avoid blocks - not recommended for Myntra)
+### PROXIES
 
 From the previous page or any other page, clicking on the **WIFI ICON,** will take you to the proxy settings page.
 
@@ -71,42 +69,25 @@ From the previous page or any other page, clicking on the **WIFI ICON,** will ta
 * To **enter** **another proxy list**, use the drop down menu on the right of the name and switch it to **load list** and repeat the above process.
 * To **delete**, select the PROXY LIST from the drop down menu and press on delete.
 
-![Screenshot 2023-02-14 at 5.15.19 PM.png" alt=""><figcaption></figcaption></figure>
+![Screenshot 2023-02-14 at 5.15.19 PM.png](../../assets/Screenshot 2023-02-14 at 5.15.19 PM.png)
 
 !!! warning
 **NOTE:** Please make sure you only use **STICKY** proxies and not **ROTATING** proxies as your cookies might get mixed up (usually should not but to be on the safer side).
 
-
-
-
-### SETTINGS&#x20;
+### SETTINGS
 
 Clicking on the **SLIDER ICON** should navigate you to the settings page of the automation.
 
-<div>![Screenshot 2023-04-11 at 3.27.09 AM.png" alt=""><figcaption></figcaption></figure> ![Screenshot 2023-04-11 at 3.27.03 AM.png](../../assets/Screenshot 2023-02-14 at 5.15.19 PM.png" alt=""><figcaption></figcaption></figure>
+![Screenshot 2023-04-11 at 3.27.09 AM.png](../../assets/Screenshot 2023-04-11 at 3.27.03 AM.png)
 
-!!! warning
-**NOTE:** Please make sure you only use **STICKY** proxies and not **ROTATING** proxies as your cookies might get mixed up (usually should not but to be on the safer side).
-
-
-
-
-### SETTINGS&#x20;
-
-Clicking on the **SLIDER ICON** should navigate you to the settings page of the automation.
-
-<div>![Screenshot 2023-04-11 at 3.27.09 AM.png" alt=""><figcaption></figcaption></figure> ![Screenshot 2023-04-11 at 3.27.03 AM.png)</div>
-
-* Enter the webhook in the **"DISCORD WEBHOOK"** field. Once done, make sure you've checked the Order Placed checkmark for you to get the webhook. Should be checked by **default** as well.
+- Enter the webhook in the **"DISCORD WEBHOOK"** field. Once done, make sure you've checked the Order Placed checkmark for you to get the webhook. Should be checked by **default** as well.
 * Remember to press **SAVE** to save the webhook in the automation. You can also **TEST WEBHOOK** to make sure you've set the right webhook.
 * If you want the **BOT** to solve the captcha as is, enter your **CAPTCHA KEY from Capmonster (**[**capmonster.cloud**](http://capmonster.cloud)**).** Remember to **SAVE** it. If you don't enter a key, it will open an image and ask you to manually input the captcha from the image (if you're pre-running a task, it is qually fast and more accurate).
 * There is also an option to trigger the browser on a successful checkout, which opens the payment page. To enable it, make sure it's checked in the settings and henceforth **SAVE**d as well.
 
 ### TASK CREATION
 
-Once all of the above have been set and saved, head over back to the homepage menu from the **HOME/HOUSE** icon.
-
-
+Once all of the above have been set and saved, head over back to the homepage menu from the HOME/HOUSE icon.
 
 ![Screenshot 2023-07-27 at 11.26.47 PM.png](../../assets/Screenshot 2023-07-27 at 11.26.47 PM.png)
 
@@ -123,6 +104,7 @@ Once all of the above have been set and saved, head over back to the homepage me
     3. Incase of normal sizes, write the size as is.
 
     eg. 5.5, 8.5, 8
+
 4. **Set Profile and Proxy** from the remaining 2 fields. NOT RECOMMENDED TO USE PROXY AS IT MIGHT MAKE THE FLOW SLOWER. OKAY ON RESTOCKS.
 5. **Monitor Delay and Error Delay:** Should be explanatory, Monitor Delay is the delay it has between each check, and Error Delay is the delay the automation adds after an error. Keep 1.0 for both by default. On a slower site, increase the error delay to 3.0/5.0.
 6. **Create Task Counter:** You can increase the counter to duplicate the same task multiple times if you wish to try on multiple sizes.
@@ -137,23 +119,21 @@ To micromanage tasks, it has buttons by the side to manage it, and each should b
 
 ## COMMON FAQ/ERRORS
 
+/// details | ERROR GETTING CSRF TOKEN - CART NOT PAYABLE (STATUS: 403)
+The cookie could be incomplete, copy another cookie and convert the same. Or, you might have been soft banned (rate limit) by the website, try again in a bit.
+///
 
+/// details | ERROR GETTING CSRF TOKEN - CART NOT PAYABLE (STATUS: 400)
+The product you're trying to checkout might already be OOS or is inactive/unavailable.
+///
 
-**1)  ERROR GETTING CSRF TOKEN - CART NOT PAYABLE (STATUS: 403)**
+/// details | ADDRESS FETCH ERROR
+The cookie you've converted might either not be converted correctly or is incomplete, try another cookie.
+///
 
--> The cookie could be incomplete, copy another cookie and convert the same. Or, you might have been soft banned (rate limit) by the website, try again in a bit.
-
-**2) ERROR GETTING CSRF TOKEN - CART NOT PAYABLE (STATUS: 400)**
-
--> The product you're trying to checkout might already be OOS or is inactive/unavailable.
-
-**3) ADDRESS FETCH ERROR**
-
--> The cookie you've converted might either not be converted correctly or is incomplete, try another cookie.
-
-**4) FETCH ERROR AFTER CAPTCHA FETCHED (RATE LIMIT/COOKIE INVALID)**
-
--> Either the CapMonster Key is wrong/not saved/inactive/out of balance/capmonster service is down, or the login cookie is invalid (the one you converted).
+/// details | FETCH ERROR AFTER CAPTCHA FETCHED (RATE LIMIT/COOKIE INVALID)
+Either the CapMonster Key is wrong/not saved/inactive/out of balance/capmonster service is down, or the login cookie is invalid (the one you converted).
+///
 
 
 

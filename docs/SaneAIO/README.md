@@ -1,5 +1,11 @@
 ---
-description: A GUI tool to help you cop limited items over certain websites.
+title: SaneAIO
+summary: A GUI tool to help you cop limited items
+description: SaneAIO is a GUI automation tool for purchasing limited items from supported websites
+keywords: saneaio,automation,gui,cop,bot
+author: OnlyDrops
+order: 0
+sidebar_title: Overview
 ---
 
 # SaneAIO
