@@ -1,52 +1,172 @@
 ---
-description: >-
-  This command line automation tool helps you post multiple entries to skicks
-  raffles.
+description: >
+  This automation tool helps you submit multiple raffle entries to VegNonVeg with ease.
 ---
 
-# SaneAIO Raffles
+# SaneAIO Toolbox
 
-### Installation
+## Installation
 
-* Download Python 3.10 [on Windows - from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5?hl=en-us\&gl=us) and [for Mac from the Official Site.](https://www.python.org/downloads/release/python-3100/) &#x20;
-* Open a command prompt window on Windows or a terminal window on Mac.
-* The below videos can be followed both on Mac and Windows in similar fashion.
-* Install the setup.txt file as shown in the video, it will install all required modules. VIDEO: [https://i.imgur.com/wy8nNQS.mp4](https://i.imgur.com/wy8nNQS.mp4)
-* Run the saneaio-raffles.py file. VIDEO: [https://i.imgur.com/FBz4NzD.mp4](https://i.imgur.com/FBz4NzD.mp4)
+Download the latest version for your operating system:
 
-### Setting Up
+- **Windows**: `SaneAIO Toolbox v3.2 [Windows].zip`
+- **macOS**: `SaneAIO Toolbox v3.2 [MacOS].zip`
 
-**profiles.json** : Add your addresses, instagram usernames, mobile numbers and names in this particular file in the mentioned example\_profiles.json file.
+### Steps
 
-**proxies.txt :** To make your entries even unique, we've added proxy support. Add your proxies line by line in "ip:port:user:pass" format (make sure they are each in a different line).
+1. Extract the ZIP file to a folder on your computer.
+2. Run the executable:
+   - **Windows**: Double-click `SaneAIO Toolbox.exe`
+   - **macOS**: Double-click `SaneAIO Toolbox`  
+     > You may need to allow it in **System Preferences → Security & Privacy**.
 
-**.env :** Add the relevant keys (auth key and captcha key) and discord notification webhook. The Auth Key is your ACO key (the same key you use everywhere).
+---
+
+## Setting Up
+
+### Authentication
+
+On first launch, you'll need to enter your **ONLYDROPS Auth Key**.  
+This is the same key you use for other OnlyDrops tools.
+
+---
+
+## Configuration Files
+
+### `data/config.json`
+
+Contains your OnlyDrops key and Discord webhook URL.
+
+```json
+{
+  "ONLYDROPS_KEY": "your-key-here",
+  "DISCORD_WEBHOOK": "your-webhook-url"
+}
+````
+
+---
+
+### `data/profiles/vnvprofiles.csv`
+
+Add your VNV account credentials in CSV format:
+
+```csv
+profile_nickname,Email,Password
+Profile1,email1@example.com,password123
+Profile2,email2@example.com,password456
+```
+
+---
+
+### `data/proxies.txt`
+
+Add your proxies line by line in:
+
+```
+ip:port:user:pass
+```
+
+Example:
+
+```
+123.45.67.89:8080:username:password
+98.76.54.32:8080:username:password
+```
+
+!!! tip "Managing Profiles"
+Use the **Settings menu (Option 3)** to easily import or add profiles from a CSV file.
+The tool will validate your profiles and create automatic backups.
+
+---
+
+# Using the Tool
+
+## Main Menu
+
+* **VNV Raffles** — Submit raffle entries
+* **Toolbox** — Additional tools (Adidas order checker)
+* **Settings** — Manage profiles, sessions, and configuration
+* **Exit** — Close the application
+
+---
+
+## Running VNV Raffles
+
+1. Select **VNV Raffles** from the main menu.
+2. Enter the raffle URL when prompted.
+3. Choose whether to use proxies (`y/n`).
+4. Select your desired sizes (separated by `/`).
+5. The tool will automatically submit entries for all your profiles.
+
+### Example
+
+```
+[PROMPT] Enter the raffle URL: https://www.vegnonveg.com/products/shoe-name
+[PROMPT] Use proxies? (y/n): y
+[AVAILABLE SIZES] 7, 8, 9, 10, 11
+[PROMPT] Enter the size choices (separated by /): 9/10/11
+```
+
+!!! tip "Session Persistence"
+Your VNV accounts stay logged in for **30 days**.
+No need to log in repeatedly — the tool automatically manages your sessions.
+
+---
+
+# Settings Menu
+
+Access the **Settings** menu to:
+
+* Replace VNV Profiles — Replace all profiles with a new CSV file
+* Add VNV Profiles — Add more profiles to your existing list
+* Export VNV Profiles — Save your current profiles to a file
+* Clear VNV Sessions — Log out all accounts (useful if you need to refresh logins)
+* Update Configuration — Change your OnlyDrops key or Discord webhook
+
+---
+
+# Features
+
+* ✨ **Session Management** — Accounts stay logged in for 30 days automatically
+* 🔄 **Smart Detection** — Automatically detects if you've already entered a raffle
+* 📁 **Easy Profile Management** — Import, add, or replace profiles with drag & drop
+* ⚡ **Fast & Reliable** — Concurrent entry submission with automatic retries
+* 🔔 **Discord Notifications** — Get notified of successful and failed entries
+
+---
+
+# Tips
+
+* Use proxies for better success rates and to avoid rate limiting.
+* Keep your profiles CSV file backed up (automatic backups are created when importing).
+* Type `back` at any prompt to return to the previous menu.
+* Check the **"Already Entered"** messages to avoid duplicate submissions.
 
 !!! warning
-    If you don't find the .env file in your folder (specially in MacOS), it might be hidden. Press CMD + SHIFT + . (dot) key, will make it visible and then open it with TextEdit.
+If you encounter any errors or issues, open a support ticket with OnlyDrops for assistance.
 
-#### How To Get The Captcha Key?
+---
 
-Head to capmonster.cloud, you can setup your account, get your key from the capmonster.cloud/dashboard and recharge through card/bitcoin and as low as 1-2$ is enough for MONTHS!
+# Troubleshooting
 
-![CapMonster Dashboard](../assets/Screenshot%202022-11-21%20at%2011.23.15%20PM.png)
+### "License key bound to another IP"
 
-### Running the Automation
+Your IP address has changed. Reset your key in the OnlyDrops dashboard.
 
-Once the above has been set, make sure you are connected to a secure network (use Cloudfare WARP to make it more secure - masks your IP).
+---
 
-Run the .py file in terminal or command prompt, as per your operating system, or just simply right click on the file and run on python.
+### "No profiles loaded"
 
-Follow the prompts from the script and enter each detail carefully.&#x20;
+Make sure your `vnvprofiles.csv` file is inside the `data/profiles/` folder and follows the correct format.
 
-**Raffle Links:** These are just slightly different from the actual raffle link, and have a format similar to #gf\_formid at the end.
+---
 
-**Size List/Size Choice:** Here, you enter the list of sizes, seperated by a '/', to instruct the script to only go for a set list of sizes, the script ignores all other sizes and randomly distributes the entries between these sizes.
+### "File not found" when importing
 
-**Use Proxies (y/n):** You have the option to run with or without proxies. Using proxies is recommended.
+Remove any quotes or escape characters from the file path, or use drag & drop.
 
-![SaneAIO Raffles](../assets/saneaio_raffles.png)
+---
 
-!!! warning
-    If you see any error, open a ticket to get it resolved.
+### Sessions not working
 
+Clear all sessions from the **Settings** menu and try again.
