@@ -6,7 +6,8 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="This command line automation tool helps you post multiple entries to skicks raffles.">
+        <meta name="description" content="This automation tool helps you submit multiple raffle entries to VegNonVeg with ease.
+">
       
       
       
@@ -27,7 +28,7 @@
     
     
       
-        <title>SaneAIO Raffles - OnlyDrops Guide</title>
+        <title>SaneAIO Toolbox - OnlyDrops Guide</title>
       
     
     
@@ -78,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#saneaio-raffles" class="md-skip">
+        <a href="#saneaio-toolbox" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SaneAIO Raffles
+              SaneAIO Toolbox
             
           </span>
         </div>
@@ -719,7 +720,7 @@
   <span class="md-ellipsis">
     
   
-    SaneAIO Raffles
+    SaneAIO Toolbox
   
 
     
@@ -737,7 +738,7 @@
   <span class="md-ellipsis">
     
   
-    SaneAIO Raffles
+    SaneAIO Toolbox
   
 
     
@@ -771,6 +772,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Steps
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -786,10 +804,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#how-to-get-the-captcha-key" class="md-nav__link">
+  <a href="#authentication" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How To Get The Captcha Key?
+        Authentication
       
     </span>
   </a>
@@ -802,13 +820,41 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#running-the-automation" class="md-nav__link">
+  <a href="#configuration-files" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Running the Automation
+        Configuration Files
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Configuration Files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dataconfigjson" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        data/config.json
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dataproxiestxt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        data/proxies.txt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1399,38 +1445,134 @@
   
 
 
-<h1 id="saneaio-raffles">SaneAIO Raffles</h1>
-<h3 id="installation">Installation</h3>
+<h1 id="saneaio-toolbox">SaneAIO Toolbox</h1>
+<h2 id="installation">Installation</h2>
+<p>Download the latest version for your operating system:</p>
 <ul>
-<li>Download Python 3.10 <a href="https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5?hl=en-us\&amp;gl=us">on Windows - from Microsoft Store</a> and <a href="https://www.python.org/downloads/release/python-3100/">for Mac from the Official Site.</a> &#x20;</li>
-<li>Open a command prompt window on Windows or a terminal window on Mac.</li>
-<li>The below videos can be followed both on Mac and Windows in similar fashion.</li>
-<li>Install the setup.txt file as shown in the video, it will install all required modules. VIDEO: <a href="https://i.imgur.com/wy8nNQS.mp4">https://i.imgur.com/wy8nNQS.mp4</a></li>
-<li>Run the saneaio-raffles.py file. VIDEO: <a href="https://i.imgur.com/FBz4NzD.mp4">https://i.imgur.com/FBz4NzD.mp4</a></li>
+<li><strong>Windows</strong>: <code>SaneAIO Toolbox v3.2 [Windows].zip</code></li>
+<li><strong>macOS</strong>: <code>SaneAIO Toolbox v3.2 [MacOS].zip</code></li>
 </ul>
-<h3 id="setting-up">Setting Up</h3>
-<p><strong>profiles.json</strong> : Add your addresses, instagram usernames, mobile numbers and names in this particular file in the mentioned example_profiles.json file.</p>
-<p><strong>proxies.txt :</strong> To make your entries even unique, we've added proxy support. Add your proxies line by line in "ip:port:user:pass" format (make sure they are each in a different line).</p>
-<p><strong>.env :</strong> Add the relevant keys (auth key and captcha key) and discord notification webhook. The Auth Key is your ACO key (the same key you use everywhere).</p>
+<h3 id="steps">Steps</h3>
+<ol>
+<li>Extract the ZIP file to a folder on your computer.</li>
+<li>Run the executable:</li>
+<li><strong>Windows</strong>: Double-click <code>SaneAIO Toolbox.exe</code></li>
+<li><strong>macOS</strong>: Double-click <code>SaneAIO Toolbox</code><br />
+     &gt; You may need to allow it in <strong>System Preferences → Security &amp; Privacy</strong>.</li>
+</ol>
+<hr />
+<h2 id="setting-up">Setting Up</h2>
+<h3 id="authentication">Authentication</h3>
+<p>On first launch, you'll need to enter your <strong>ONLYDROPS Auth Key</strong>.<br />
+This is the same key you use for other OnlyDrops tools.</p>
+<hr />
+<h2 id="configuration-files">Configuration Files</h2>
+<h3 id="dataconfigjson"><code>data/config.json</code></h3>
+<p>Contains your OnlyDrops key and Discord webhook URL.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nt">&quot;ONLYDROPS_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-key-here&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nt">&quot;DISCORD_WEBHOOK&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-webhook-url&quot;</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="p">}</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="err">````</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="mi">---</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="err">###</span><span class="w"> </span><span class="err">`da</span><span class="kc">ta</span><span class="err">/pro</span><span class="kc">f</span><span class="err">iles/v</span><span class="kc">n</span><span class="err">vpro</span><span class="kc">f</span><span class="err">iles.csv`</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="err">Add</span><span class="w"> </span><span class="err">your</span><span class="w"> </span><span class="err">VNV</span><span class="w"> </span><span class="err">accou</span><span class="kc">nt</span><span class="w"> </span><span class="err">crede</span><span class="kc">nt</span><span class="err">ials</span><span class="w"> </span><span class="err">i</span><span class="kc">n</span><span class="w"> </span><span class="err">CSV</span><span class="w"> </span><span class="kc">f</span><span class="err">orma</span><span class="kc">t</span><span class="p">:</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="err">```csv</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="err">pro</span><span class="kc">f</span><span class="err">ile_</span><span class="kc">n</span><span class="err">ick</span><span class="kc">na</span><span class="err">me</span><span class="p">,</span><span class="err">Email</span><span class="p">,</span><span class="err">Password</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="err">Pro</span><span class="kc">f</span><span class="err">ile</span><span class="mi">1</span><span class="p">,</span><span class="err">email</span><span class="mi">1</span><span class="err">@example.com</span><span class="p">,</span><span class="err">password</span><span class="mi">123</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="err">Pro</span><span class="kc">f</span><span class="err">ile</span><span class="mi">2</span><span class="p">,</span><span class="err">email</span><span class="mi">2</span><span class="err">@example.com</span><span class="p">,</span><span class="err">password</span><span class="mi">456</span>
+</code></pre></div>
+<hr />
+<h3 id="dataproxiestxt"><code>data/proxies.txt</code></h3>
+<p>Add your proxies line by line in:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ip:port:user:pass
+</code></pre></div>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>123.45.67.89:8080:username:password
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>98.76.54.32:8080:username:password
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Managing Profiles</p>
+</div>
+<p>Use the <strong>Settings menu (Option 3)</strong> to easily import or add profiles from a CSV file.
+The tool will validate your profiles and create automatic backups.</p>
+<hr />
+<h1 id="using-the-tool">Using the Tool</h1>
+<h2 id="main-menu">Main Menu</h2>
+<ul>
+<li><strong>VNV Raffles</strong> — Submit raffle entries</li>
+<li><strong>Toolbox</strong> — Additional tools (Adidas order checker)</li>
+<li><strong>Settings</strong> — Manage profiles, sessions, and configuration</li>
+<li><strong>Exit</strong> — Close the application</li>
+</ul>
+<hr />
+<h2 id="running-vnv-raffles">Running VNV Raffles</h2>
+<ol>
+<li>Select <strong>VNV Raffles</strong> from the main menu.</li>
+<li>Enter the raffle URL when prompted.</li>
+<li>Choose whether to use proxies (<code>y/n</code>).</li>
+<li>Select your desired sizes (separated by <code>/</code>).</li>
+<li>The tool will automatically submit entries for all your profiles.</li>
+</ol>
+<h3 id="example">Example</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>[PROMPT] Enter the raffle URL: https://www.vegnonveg.com/products/shoe-name
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>[PROMPT] Use proxies? (y/n): y
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>[AVAILABLE SIZES] 7, 8, 9, 10, 11
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>[PROMPT] Enter the size choices (separated by /): 9/10/11
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Session Persistence</p>
+</div>
+<p>Your VNV accounts stay logged in for <strong>30 days</strong>.
+No need to log in repeatedly — the tool automatically manages your sessions.</p>
+<hr />
+<h1 id="settings-menu">Settings Menu</h1>
+<p>Access the <strong>Settings</strong> menu to:</p>
+<ul>
+<li>Replace VNV Profiles — Replace all profiles with a new CSV file</li>
+<li>Add VNV Profiles — Add more profiles to your existing list</li>
+<li>Export VNV Profiles — Save your current profiles to a file</li>
+<li>Clear VNV Sessions — Log out all accounts (useful if you need to refresh logins)</li>
+<li>Update Configuration — Change your OnlyDrops key or Discord webhook</li>
+</ul>
+<hr />
+<h1 id="features">Features</h1>
+<ul>
+<li>✨ <strong>Session Management</strong> — Accounts stay logged in for 30 days automatically</li>
+<li>🔄 <strong>Smart Detection</strong> — Automatically detects if you've already entered a raffle</li>
+<li>📁 <strong>Easy Profile Management</strong> — Import, add, or replace profiles with drag &amp; drop</li>
+<li>⚡ <strong>Fast &amp; Reliable</strong> — Concurrent entry submission with automatic retries</li>
+<li>🔔 <strong>Discord Notifications</strong> — Get notified of successful and failed entries</li>
+</ul>
+<hr />
+<h1 id="tips">Tips</h1>
+<ul>
+<li>Use proxies for better success rates and to avoid rate limiting.</li>
+<li>Keep your profiles CSV file backed up (automatic backups are created when importing).</li>
+<li>Type <code>back</code> at any prompt to return to the previous menu.</li>
+<li>Check the <strong>"Already Entered"</strong> messages to avoid duplicate submissions.</li>
+</ul>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>If you don't find the .env file in your folder (specially in MacOS), it might be hidden. Press CMD + SHIFT + . (dot) key, will make it visible and then open it with TextEdit.</p>
 </div>
-<h4 id="how-to-get-the-captcha-key">How To Get The Captcha Key?</h4>
-<p>Head to capmonster.cloud, you can setup your account, get your key from the capmonster.cloud/dashboard and recharge through card/bitcoin and as low as 1-2$ is enough for MONTHS!</p>
-<p><img alt="CapMonster Dashboard" src="../../assets/Screenshot%202022-11-21%20at%2011.23.15%20PM.png" /></p>
-<h3 id="running-the-automation">Running the Automation</h3>
-<p>Once the above has been set, make sure you are connected to a secure network (use Cloudfare WARP to make it more secure - masks your IP).</p>
-<p>Run the .py file in terminal or command prompt, as per your operating system, or just simply right click on the file and run on python.</p>
-<p>Follow the prompts from the script and enter each detail carefully.&#x20;</p>
-<p><strong>Raffle Links:</strong> These are just slightly different from the actual raffle link, and have a format similar to #gf_formid at the end.</p>
-<p><strong>Size List/Size Choice:</strong> Here, you enter the list of sizes, seperated by a '/', to instruct the script to only go for a set list of sizes, the script ignores all other sizes and randomly distributes the entries between these sizes.</p>
-<p><strong>Use Proxies (y/n):</strong> You have the option to run with or without proxies. Using proxies is recommended.</p>
-<p><img alt="SaneAIO Raffles" src="../../assets/saneaio_raffles.png" /></p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>If you see any error, open a ticket to get it resolved.</p>
-</div>
+<p>If you encounter any errors or issues, open a support ticket with OnlyDrops for assistance.</p>
+<hr />
+<h1 id="troubleshooting">Troubleshooting</h1>
+<h3 id="license-key-bound-to-another-ip">"License key bound to another IP"</h3>
+<p>Your IP address has changed. Reset your key in the OnlyDrops dashboard.</p>
+<hr />
+<h3 id="no-profiles-loaded">"No profiles loaded"</h3>
+<p>Make sure your <code>vnvprofiles.csv</code> file is inside the <code>data/profiles/</code> folder and follows the correct format.</p>
+<hr />
+<h3 id="file-not-found-when-importing">"File not found" when importing</h3>
+<p>Remove any quotes or escape characters from the file path, or use drag &amp; drop.</p>
+<hr />
+<h3 id="sessions-not-working">Sessions not working</h3>
+<p>Clear all sessions from the <strong>Settings</strong> menu and try again.</p>
 
 
 
