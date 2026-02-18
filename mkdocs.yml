@@ -2,11 +2,15 @@ site_name: OnlyDrops Guide
 
 site_url: https://guide.onlydrops.in
 
-repo_url: https://github.com/OnlyTools-Softwares/onlydrops-guide-docs
-repo_name: OnlyDrops Guide
-
 theme:
   name: shadcn
+  show_title: true # show the title in the top bar
+  show_stargazers: true # show the stargazers in the top bar
+  pygments_style: # default styles 
+        light: shadcn-light
+        dark: github-dark
+  show_datetime: false 
+  icon: assets/logo.jpg
 
 markdown_extensions:
   - codehilite
@@ -22,6 +26,3 @@ extra:
     exclude: |
       *.zip
       *.mov
-
-extra_css:
-  - stylesheets/extra.css

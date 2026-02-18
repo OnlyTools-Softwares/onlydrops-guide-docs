@@ -7,6 +7,8 @@ author: OnlyDrops
 order: 1
 new: true
 sidebar_title: Raffles Tool
+extra_css:
+  - css/extra.css
 ---
 
 ## **Installation**
