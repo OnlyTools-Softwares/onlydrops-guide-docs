@@ -41,10 +41,12 @@ Navigate to the **WALLET ICON** to set your profiles.
 * Once filled, enter the Profile Name (identifier).
 * In the email field, write your google email (gmail) where you would be receiving the e-tickets and the OTP process.
 * If you are using a catch-all domain, you may enter it in this format:
+
     ```
     catchallemail@domain.com|yourgmail@gmail.com
     ```
-    This allows the system to use unique catch-all emails on your domain while forwarding them to your Gmail inbox, which will then be accessed via IMAP to detect OTPs.
+
+    This allows the system to use unique catch-all emails on your domain while forwarding them to your Gmail inbox.
 * In the password field, write your gmail's APP PASSWORD for the bot to login to your gmail with IMAP to check the OTP. To setup app passwords for IMAP, follow this video.
 * For enabling IMAP: [https://www.youtube.com/watch?v=hu9xp4piYPs](https://www.youtube.com/watch?v=hu9xp4piYPs)
 * For making APP PASSWORDS: [https://www.youtube.com/watch?v=hXiPshHn9Pw](https://www.youtube.com/watch?v=hXiPshHn9Pw) | [https://www.youtube.com/watch?v=6ANKk9NQ3GI](https://www.youtube.com/watch?v=6ANKk9NQ3GI)
