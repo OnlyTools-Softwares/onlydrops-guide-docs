@@ -4,6 +4,7 @@ site_url: https://guide.onlydrops.in
 
 theme:
   name: shadcn
+  favicon: assets/favicon.ico
   show_title: true # show the title in the top bar
   show_stargazers: true # show the stargazers in the top bar
   pygments_style: # default styles 
