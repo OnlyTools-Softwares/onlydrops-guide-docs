@@ -1,22 +1,15 @@
 ---
-title: BMS (Event)
+title: BMS (Card)
 summary: A GUI tool to help you cop limited items
 description: SaneAIO is a GUI automation tool for purchasing limited items from supported websites
 keywords: saneaio,automation,gui,cop,bot
 author: OnlyDrops
-order: 2
-sidebar_title: BMS (Event)
+order: 1
+sidebar_title: BMS (Card)
 ---
 
-# BM (Events)
 
-
-
-### NOTE: This is only for events that do not have a stadium selection, or use the new BMS booking page.
-
-
-
-
+# BM (Card)
 
 ![Key Prompt](../../assets/Screenshot 2023-02-14 at 4.42.38 PM.png)
 
@@ -41,10 +34,10 @@ Navigate to the **WALLET ICON** to set your profiles.
 * Once filled, enter the Profile Name (identifier).
 * In the email field, write your google email (gmail) where you would be receiving the e-tickets and the OTP process.
 * If you are using a catch-all domain, you may enter it in this format:
-```
-catchallemail@domain.com|yourgmail@gmail.com
-```
-This allows the system to use unique catch-all emails on your domain while forwarding them to your Gmail inbox, which will then be accessed via IMAP to detect OTPs.
+    ```
+    catchallemail@domain.com|yourgmail@gmail.com
+    ```
+    This allows the system to use unique catch-all emails on your domain while forwarding them to your Gmail inbox, which will then be accessed via IMAP to detect OTPs.
 * In the password field, write your gmail's APP PASSWORD for the bot to login to your gmail with IMAP to check the OTP. To setup app passwords for IMAP, follow this video.
 * For enabling IMAP: [https://www.youtube.com/watch?v=hu9xp4piYPs](https://www.youtube.com/watch?v=hu9xp4piYPs)
 * For making APP PASSWORDS: [https://www.youtube.com/watch?v=hXiPshHn9Pw](https://www.youtube.com/watch?v=hXiPshHn9Pw) | [https://www.youtube.com/watch?v=6ANKk9NQ3GI](https://www.youtube.com/watch?v=6ANKk9NQ3GI)
@@ -59,7 +52,7 @@ This allows the system to use unique catch-all emails on your domain while forwa
 
 
 
-### SETTING PROXIES (Alternative IPs to avoid blocks - will make the task slower)
+### PROXIES (Alternative IPs to avoid blocks - will make the task slower)
 
 From the previous page or any other page, clicking on the **WIFI ICON,** will take you to the proxy settings page.
 
@@ -89,10 +82,11 @@ Clicking on the **SLIDER ICON** should navigate you to the settings page of the 
 * There is also an option to trigger the browser on a successful checkout, which opens the payment page. To enable it, make sure its checked in the settings and henceforth **SAVE**d as well.
 
 
+
 ### SAVING CARD INFO
 
-Before turning on the tool, we need to remember that the checkout process needs a CARD to checkout the ticket.
-
+Before turning on the tool, we need to remember that the checkout process needs a CARD to checkout the ticket. \
+\
 **To add card detail(s), follow these steps:**
 
 **NOTE: Before starting, please ensure that the bot is closed (or tasks are not running/idle).**
@@ -100,10 +94,10 @@ Before turning on the tool, we need to remember that the checkout process needs 
 1. **Open the SaneAIO main folder** (the contents shouild be a "data" folder, an "images" folder, and the .exe/app file.
 2. **Click and open the "data" folder.**
 3. **Within the "data"  folder, you will find a "BMS" folder. Open that.**
-4. **You will now find a vpas.csv file, open that with a compatible csv editor (**[**RON EDITOR**](https://www.ronsplace.ca/products/ronseditor/download) **for Windows, or** [**Modern CSV for Mac**](https://www.moderncsv.com)**, or Table Tool) or use any text editor (.csv are just comma seperated values, so if you follow the header format you should be okay).**
-5. **Save the vpas.csv file (overwrite, if prompted).**
+4. **You will now find a cards.csv file, open that with a compatible csv editor (**[**RON EDITOR**](https://www.ronsplace.ca/products/ronseditor/download) **for Windows, or** [**Modern CSV for Mac**](https://www.moderncsv.com)**) or use any text editor (.csv are just comma seperated values, so if you follow the header format you should be okay).**
+5. **Save the cards.csv file (overwrite, if prompted).**
 
-!!! warning
+!!! info
     **NOTE: You have to make sure you follow the format, or you could get expiry/card number formatting errors. Make sure your CSV editor isn't changing the values, and if it does, format it as Text.**
 
 
@@ -117,14 +111,11 @@ Once all of the above have been set and saved, head over back to the homepage me
 1. Choose site/module, **BM (Card)** in this case.
 2.  There is only 1 way to set/monitor an event and a ticket:
 
-    1. **by Event ID and Ticket ID: Enter the event ID (copied from the end of the event URL** , eg. [https://in.bookmyshow.com/events/seedhe-maut-live-in-lucknow/ET00437060](https://in.bookmyshow.com/events/seedhe-maut-live-in-lucknow/ET00437060), here, the event ID is **ET00437060)** and **a ticket ID in the size/variant/qty field** (which is the ID of the specific ticket category/region you want to go for), eg. **T698** or **RA (to randomly select an available ID)**.
+    1. **by Event ID and Ticket ID: Enter the EVENT ID (copied from the end of the event URL) of the event in the Link Field**, eg. [https://in.bookmyshow.com/events/the-under-25-summit/ET00412000](https://in.bookmyshow.com/events/the-under-25-summit/ET00412000), here, the T449is [**ET00412000**](https://in.bookmyshow.com/events/the-under-25-summit/ET00412000) and **a ticket ID in the size/variant/qty field** (which is the ID of the specific ticket category/region you want to go for), eg. **T449**.
 
-    To get the ticket ID, use OnlyDrops' scraper in one of the channels or privately in a ticket and copy the ticket ID complementing the Price of the ticket you're looking for, if there are multiple same prices, refer to the online listing as the ticket prices/variants are in descending order.
-    **Example Command:** /bms event\_id:**ET00437060**
-
-![Create Task Dialog Box](../../assets/Screenshot 2025-04-04 at 4.03.29 PM.png)
-
-![ASFASFSDAFASF.png](../../assets/ASFASFSDAFASF.png)
+    To get the ticket ID, use OnlyDrops' scraper in one of the channels or privately in a ticket and copy the ticket ID complementing the Price of the ticket you're looking for, if there are multiple same prices, refer to the online listing as the ticket prices/variants are in descending order. \
+    \
+    **Example Command:** /bms event\_id:[**ET00412000**](https://in.bookmyshow.com/events/the-under-25-summit/ET00412000)
 
 1. Choose your profile. I would recommend naming the profiles by email usernames, so its easy for you to navigate to the same in the drop down. Make sure IMAP email and password (app password) is set correctly and saved in the profile you are planning to run.
 2.  In the Size/Qty counter, there are a few ways of configuring the same.
@@ -139,18 +130,36 @@ Once all of the above have been set and saved, head over back to the homepage me
 4. **Monitor Delay and Error Delay:** Should be explanatory, Monitor Delay is the delay it has between each check, and Error Delay is the delay the automation adds after an error. Keep 1.0 for both by default. **On a safer side to avoid blocks, increase the error delay to 3.0/5.0.**
 5. **Create Task Counter:** You can increase the counter to duplicate the same task multiple times if you wish to try on multiple sizes. For each profile, only KEEP/RUN A SINGLE TASK at once or else you might encounter a cart/login/otp mixup error.
 
-### **SAMPLE CHECKOUT LOGS FLOW:**
+![Screenshot 2024-09-20 at 12.05.18 PM.png](../../assets/Screenshot 2024-09-20 at 12.05.18 PM.png)
+
+6. The bot will check for stock and will keep looping until it finds stock.
+7. Once found, it will **cart the ticket and proceed to add the necessary details for checkout.** Most tickets on **BMS have a 12 minute cart hold.**
+8. Tickets are either M-Tickets (QR codes) or Home Delivery, so please always keep and address added on your profiles. **If you wish to force a M-Ticket checkout, use pincode 123456 instead of your actual pincode.**
+9. Once completed, it **will send you a checkout link if you've set a web hook** in the Settings tab, and that will **open the OTP/3DS page in your browser**.&#x20;
+
+
+!!! warning
+    **NOTE: I HIGHLY RECOMMEND SETTING THE WEBHOOK IN SETTINGS CORRECTLY, AND TESTING IT BEFOREHAND.**
+
+
+
+**SAMPLE CHECKOUT LOGS FLOW:**
 
 ![Screenshot 2024-09-20 at 5.02.00 PM.png](../../assets/Screenshot 2024-09-20 at 5.02.00 PM.png)
 
 **SAMPLE WEBHOOK:**
 
-![Screenshot 2025-04-04 at 4.05.05 PM.png](../../assets/Screenshot 2025-04-04 at 4.05.05 PM.png)
+![Screenshot 2024-09-20 at 4.47.42 PM.png](../../assets/Screenshot 2024-09-20 at 4.47.42 PM.png)
 
-**SAMPLE OTP PAGE:**
+**SAMPLE PAYMENT PAGE:**
 
-![Screenshot 2024-09-20 at 4.59.01 PM.png](../../assets/Screenshot 2024-09-20 at 4.59.01 PM.png)
+![Screenshot 2024-09-20 at 4.59.01 PM.png](../../assets/Screenshot 2024-09-20 at 12.05.18 PM.png)
 
+
+!!! info
+    **NOTE:** The final webhook also has the expiry time that keeps on changing for you to keep a check on the time left for you to complete the payment, please always complete the payment within the required time!
+
+Once all is done, add the task and then, all other buttons should be explanatory.&#x20;
 
 Use **Start All** to start all tasks, **Stop All** to stop all tasks, **Delete All** to Delete all tasks.
 
