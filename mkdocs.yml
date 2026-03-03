@@ -12,6 +12,27 @@ theme:
   show_datetime: false 
   icon: assets/logo.jpg
 
+nav:
+  - Welcome to OnlyDrops: index.md
+  - Contents: Contents.md
+
+  - Automations:
+      - Raffles Tool: automations/saneaio-raffles.md
+
+  - SaneAIO:
+      - Overview: saneaio/index.md
+      - BMS (Card): saneaio/bm-card.md
+      - BMS (Event): saneaio/bm-events.md
+      - BMS (UPI): saneaio/bm-upi.md
+      - District Queue: saneaio/queue-fair-district-queue.md
+      - District Auto: saneaio/queue-fair-district-auto.md
+      - Queue-Fair: saneaio/queue-fair.md
+      - Myntra: saneaio/myntra.md
+      - Superkicks: saneaio/sk.md
+
+  - Utilities:
+      - Helper Bot: utilities/helper-bots.md
+
 markdown_extensions:
   - codehilite
   - admonition
