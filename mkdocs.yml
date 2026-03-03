@@ -15,7 +15,7 @@ theme:
 
 nav:
   - Welcome to OnlyDrops: index.md
-  - Contents: Contents.md
+  - Contents: contents.md
 
   - Automations:
       - Raffles Tool: automations/saneaio-raffles.md
